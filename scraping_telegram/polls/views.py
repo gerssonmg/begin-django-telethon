@@ -28,7 +28,7 @@ async def _get_messages():
         if last_message_my_channel[0].message != diego[0].message:
             print("NEW MSG")
             await client.send_message(-1001581627805, diego[0].message)
-        time.sleep(0.5)
+        time.sleep(5)
 
 
 with client:
